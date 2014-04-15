@@ -13,3 +13,11 @@ kdkmeans in /tmp/ and visualizes the clustering.
 
 Parameters (such as size of the problem) to the program can be
 changed in common.h
+
+You may want to change some parameters in the Makefile. For example,
+it is set to build for sm13 by default. Also the -G flag is used.
+(I faced cuda compiler issues without this flag).
+
+NOTE:
+I wrote this code before I started to use GIT, so there is nothing
+much in terms of commit logs for this project.
